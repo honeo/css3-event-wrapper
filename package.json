@@ -1,7 +1,7 @@
 {
   "name": "css3-event-wrapper",
   "version": "1.0.0",
-  "description": "About\r ---\r CSS3 AnimationEvent and TransitionEvent of Wrapper.",
+  "description": "CSS3 AnimationEvent and TransitionEvent of Wrapper.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
