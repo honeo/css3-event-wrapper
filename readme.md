@@ -1,24 +1,29 @@
 About
----
-Wrapper of CSS3 AnimationEvent and TransitionEvent.
+-----
+Wrapper of CSS3 AnimationEvent and TransitionEvent.  
+[honeo/css3-event-wrapper](https://github.com/honeo/css3-event-wrapper)  
+[css3-event-wrapper](https://www.npmjs.com/package/css3-event-wrapper)  
 
 DEMO
----
+-----
 [Edit fiddle - JSFiddle](http://jsfiddle.net/e3bxstu5/)
 
 Sample
----
+-----
+```bash
+$ npm i css3-event-wrapper
+```
 ```js
 var css3EvtWrap = require('css3-event-wrapper'),
 	onAnimationStart = css3EvtWrap.onAnimationStart;
-	
+
 onAnimationStart.add(element, function(e){
     console.log(e.type); //animationstart
 });
 ```
 
 Method
----
+-----
 onAnimationStart.add(element, listener [,useCapture])  
 onAnimationStart.remove(element, listener [,useCapture])  
 onAnimationEnd.add(element, listener [,useCapture])  
@@ -29,7 +34,7 @@ onTransitionEnd.add(element, listener [,useCapture])
 onTransitionEnd.remove(element, listener [,useCapture])  
 
 Reference
----
+-----
 [EventTarget.addEventListener() - Web API Interfaces | MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)  
 [EventTarget.removeEventListener() - Web API Interfaces | MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener)  
 [AnimationEvent - Web API Interfaces | MDN](https://developer.mozilla.org/en-US/docs/Web/API/AnimationEvent)  
