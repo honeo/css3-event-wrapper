@@ -14,5 +14,9 @@
     "wrapper"
   ],
   "author": "honeo",
-  "license": "MIT"
+  "license": "MIT",
+  "repository" : {
+      "type": "git",
+      "url": "https://github.com/honeo/css3-event-wrapper.git"
+  }
 }
