@@ -1,6 +1,6 @@
 About
 -----
-Wrapper of CSS3 AnimationEvent and TransitionEvent.  
+Wrapper for CSS3 AnimationEvent and TransitionEvent.  
 [honeo/css3-event-wrapper](https://github.com/honeo/css3-event-wrapper)  
 [css3-event-wrapper](https://www.npmjs.com/package/css3-event-wrapper)  
 
