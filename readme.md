@@ -1,29 +1,25 @@
-About
------
+# css3-event-wrapper
 Wrapper for CSS3 AnimationEvent and TransitionEvent.  
 [honeo/css3-event-wrapper](https://github.com/honeo/css3-event-wrapper)  
 [css3-event-wrapper](https://www.npmjs.com/package/css3-event-wrapper)  
 
-DEMO
------
+## DEMO
 [Edit fiddle - JSFiddle](http://jsfiddle.net/e3bxstu5/)
 
-Sample
------
+## Example
 ```bash
 $ npm i css3-event-wrapper
 ```
 ```js
-var css3EvtWrap = require('css3-event-wrapper'),
-	onAnimationStart = css3EvtWrap.onAnimationStart;
+const css3EvtWrap = require('css3-event-wrapper'),
+const onAnimationStart = css3EvtWrap.onAnimationStart;
 
-onAnimationStart.add(element, function(e){
+onAnimationStart.add(element, (e)=>{
     console.log(e.type); //animationstart
 });
 ```
 
-Method
------
+## Method
 onAnimationStart.add(element, listener [,useCapture])  
 onAnimationStart.remove(element, listener [,useCapture])  
 onAnimationEnd.add(element, listener [,useCapture])  
@@ -33,8 +29,7 @@ onAnimationIteration.remove(element, listener [,useCapture])
 onTransitionEnd.add(element, listener [,useCapture])  
 onTransitionEnd.remove(element, listener [,useCapture])  
 
-Reference
------
+## Reference
 [EventTarget.addEventListener() - Web API Interfaces | MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)  
 [EventTarget.removeEventListener() - Web API Interfaces | MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener)  
 [AnimationEvent - Web API Interfaces | MDN](https://developer.mozilla.org/en-US/docs/Web/API/AnimationEvent)  
