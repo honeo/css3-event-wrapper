@@ -39,7 +39,7 @@ const onTransitionEnd = {
 	eventNameArray: ['webkitTransitionEnd', 'MSTransitionEnd', 'oTransitionEnd', 'otransitionend', 'transitionend']
 }
 
-module.exports {
+module.exports = {
 	onAnimationStart,
     onAnimationEnd,
     onAnimationIteration,
